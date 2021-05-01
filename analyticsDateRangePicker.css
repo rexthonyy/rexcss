@@ -1,0 +1,85 @@
+#ADRP_AnalyticsDateRangePickerContainer{
+	position: relative;
+}
+
+#ADRP_DropdownClickHandler{
+	cursor: pointer;
+}
+
+#ADRP_DisplayTextContainer{
+	position: relative;
+	text-align: left;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 0px 16px;
+}
+
+#ADRP_DropdownIcon{
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 1em;
+	margin-right: 16px;
+}
+
+#ADRP_DisplayText{
+	font-size: 14px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	margin-right: 32px;
+	font-weight: bold;
+	color: rgb(80, 80, 80);
+}
+
+#ADRP_DateRangePicker{
+	position: absolute;
+	bottom: 0;
+}
+
+.ADRP_DateInput{
+	position: absolute;
+	width: 0;
+	height: 0;
+	border: 0;
+	padding: 0;
+}
+
+#ADRP_DropdownContainer{
+	position: relative;
+}
+
+#ADRP_DropdownMenuContainer{
+	position: absolute;
+	overflow: auto;
+	z-index: 1;
+	top: 8px;
+	background-color: white;
+	display: block;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.ADRP_MenuItem{
+	padding: 12px 16px;
+	font-size: 14px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	font-weight: bold;
+	color: rgb(80, 80, 80);
+}
+
+.ADRP_MenuItem:hover, .ADRP_MenuItemSelected{
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 600px){
+	#ADRP_DisplayText{
+		font-size: 12px;
+	}
+	.ADRP_MenuItem{
+		font-size: 12px;
+	}
+}
