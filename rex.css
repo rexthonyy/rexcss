@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
 *{
 	padding: 0;
 	margin: 0;
 	outline: none;
 	text-decoration: none;
-	list-style: none;
+	/* list-style: none; */
 	box-sizing: border-box;
 }
 
@@ -13,21 +11,15 @@ html {
 	scroll-behavior: smooth;
 }
 
-body{
-	font-family: 'Inter', sans-serif;
-	font-size: small;
-	background-color: rgb(250, 250, 250);
-}
-
 /*Highlight color*/
 ::-moz-selection { 
 	color: white;
-	background: rgb(56, 89, 220);
+	background: rgb(159, 234, 230);
 }
 
 ::selection {
 	color: white;
-	background: rgb(56, 89, 220);
+	background: rgb(159, 234, 230);
 }
 
 .rex-underline-onhover:hover{
@@ -92,6 +84,15 @@ body{
 	text-overflow: ellipsis;
 }
 
+.rex-text-ellipses{
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
 .rex-noresize{
 	resize: none;
+}
+
+.rex-italic{
+	font-style: italic;
 }

@@ -50,6 +50,10 @@
 	margin-top: 48px;
 }
 
+.rex-mt-64px{
+	margin-top: 64px;
+}
+
 .rex-mt--10px{
 	margin-top: -10px;
 }
@@ -88,4 +92,8 @@
 
 .rex-mb-32px{
 	margin-bottom: 32px;
+}
+
+.rex-mb-64px{
+	margin-bottom: 64px;
 }

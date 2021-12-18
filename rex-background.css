@@ -1,14 +1,14 @@
 /*Application defined*/
 .rex-background-primary{
-	background-color: rgb(23, 52, 97);
+	background-color: rgb(71, 190, 185);
 }
 
 .rex-background-secondary{
-	background-color: rgb(32, 32, 32);
+	background-color: rgba(71, 190, 184, 0.397);
 }
 
 .rex-background-tertiary{
-	background-color: rgb(56, 89, 220)
+	background-color: rgb(71, 190, 185);
 }
 
 .rex-background-input{
@@ -26,11 +26,6 @@
 .rex-background-dashboard-source-indicator{
 	background-color: rgba(239, 246, 255);
 }
-
-.rex-background-dashboard-source-indicator2{
-	background-color: rgba(255, 247, 237);
-}
-
 
 /*Default*/
 .rex-background-red{
@@ -82,6 +77,6 @@
 }
 
 .rex-selectable-item-background:hover, .rex-item-selected{
-	background-color: rgba(180, 180, 180, 0.2);
+	background-color: rgba(37, 84, 114, 0.295);
 	transition: all .3s;
 }

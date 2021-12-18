@@ -1,3 +1,15 @@
+.rex-fs-xxxxxx-large{
+	font-size: 44px;
+}
+
+.rex-fs-xxxxx-large{
+	font-size: 40px;
+}
+
+.rex-fs-xxxx-large{
+	font-size: 36px;
+}
+
 .rex-fs-xxx-large{
 	font-size: 32px;
 }
@@ -30,6 +42,14 @@
 	font-size: 12px;
 }
 
+.rex-lh-xxx-large{
+	line-height: 64px;
+}
+
+.rex-lh-xx-large{
+	line-height: 52px;
+}
+
 .rex-lh-x-large{
 	line-height: 42px;
 }
@@ -48,6 +68,10 @@
 
 .rex-lh-x-small{
 	line-height: 20px;
+}
+
+.rex-lh-xx-small{
+	line-height: 18px;
 }
 
 

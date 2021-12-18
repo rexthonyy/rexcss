@@ -2,6 +2,22 @@
 	border: 1px solid black;
 }
 
+.rex-border-primary{
+	border: 1px solid rgb(71, 190, 185);
+}
+
+.rex-border-primary-2px{
+	border: 2px solid rgb(71, 190, 185);
+}
+
+.rex-border-left-black-3px{
+	border-left: 3px solid rgb(71, 190, 185);;
+}
+
+.rex-border-transparent{
+	border: 1px solid transparent;
+}
+
 .rex-border-blue{
 	border: 1px solid blue;
 }
@@ -35,11 +51,19 @@
 }
 
 .rex-border-top-gray{
-	border-top: 1px solid rgb(164, 164, 164);
+	border-top: 1px solid rgba(158, 165, 165, 0.534);
 }
 
 .rex-border-top-black{
-	border-top: 1px solid rgb(64, 64, 64);
+	border-top: 1px solid rgba(158, 165, 165, 0.534);
+}
+
+.rex-border-bottom-primary{
+	border-bottom: 1px solid rgb(130, 167, 190);
+}
+
+.rex-border-bottom-primary-2px{
+	border-bottom: 2px solid rgb(130, 167, 190);
 }
 
 .rex-border-bottom-gray{
